@@ -13,6 +13,7 @@
 		8AF89E531D35DF3900A3D61F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF89E511D35DF3900A3D61F /* Main.storyboard */; };
 		8AF89E551D35DF3900A3D61F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AF89E541D35DF3900A3D61F /* Assets.xcassets */; };
 		8AF89E581D35DF3900A3D61F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF89E561D35DF3900A3D61F /* LaunchScreen.storyboard */; };
+		8AF89E611D35E01F00A3D61F /* XAlertViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF89E601D35E01F00A3D61F /* XAlertViewHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		8AF89E541D35DF3900A3D61F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AF89E571D35DF3900A3D61F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AF89E591D35DF3900A3D61F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AF89E5F1D35E01F00A3D61F /* XAlertViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAlertViewHelper.h; sourceTree = "<group>"; };
+		8AF89E601D35E01F00A3D61F /* XAlertViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAlertViewHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		8AF89E471D35DF3900A3D61F /* BoundsTest */ = {
 			isa = PBXGroup;
 			children = (
+				8AF89E5F1D35E01F00A3D61F /* XAlertViewHelper.h */,
+				8AF89E601D35E01F00A3D61F /* XAlertViewHelper.m */,
 				8AF89E4B1D35DF3900A3D61F /* AppDelegate.h */,
 				8AF89E4C1D35DF3900A3D61F /* AppDelegate.m */,
 				8AF89E4E1D35DF3900A3D61F /* ViewController.h */,
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AF89E611D35E01F00A3D61F /* XAlertViewHelper.m in Sources */,
 				8AF89E501D35DF3900A3D61F /* ViewController.m in Sources */,
 				8AF89E4D1D35DF3900A3D61F /* AppDelegate.m in Sources */,
 				8AF89E4A1D35DF3900A3D61F /* main.m in Sources */,
